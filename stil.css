@@ -1,0 +1,506 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+  
+h1 
+    {
+	margin-top: -13px;
+    padding-left: 10px;
+	display: inline-block;
+    font-size: 60px;
+	}
+	
+h2 
+    {
+	text-align:center;
+	font-weight:700;
+	font-size: 48px;
+	padding: 50px;
+    }  
+    
+h3 
+    {
+	padding:20px 10px 0px 10px;
+    font-weight:bold;
+	font-size: 36px;
+    }
+	
+body 
+    {
+	background-color: #262626;
+	color: #D7D7D9;
+	font-family: DM Sans;
+	font-size: 24px;
+	}
+	
+footer 
+	{
+	background-color: black;
+	padding: 50px;
+	font-size: 12px;
+	text-align: left;
+	}
+
+.logo 
+	{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 15px;
+	}
+  
+nav 
+	{
+	background-color: #262626;
+	overflow: auto;
+	width: 100%;
+    height: 80px;
+	}
+    
+.logo img
+	{
+	width: 70px;
+	height: 70px;
+	float: left;
+	display: inline-block;
+	margin-top: -3px;
+	}
+	
+nav a 
+	{
+	float: left;
+	color: #D7D7D9;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+    height: 80px;
+	}
+
+nav a:hover 
+	{
+	background-color: #ddd;
+	color: #262626;
+	font-weight: bold;
+	}
+
+nav a.active 
+	{
+	background-color: #5955D9;
+	}
+
+.nav-right 
+	{
+	float: right;
+	}
+
+.content p 
+	{
+    text-align:center;
+    padding: 10px 80px 10px 80px;
+    }
+    
+.banner 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: url("imagini/computer-device-electronics.jpg");
+    }
+	
+.banner a
+	{
+	background-color: #5955D9;
+	border: none;
+	color: white;
+	padding: 20px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 90px;
+	cursor: pointer;	
+	}
+	
+.banner a:hover
+	{
+	background-color: #262626;
+	color: white;
+	font-weight: bold;
+	}
+    
+.banner2 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/team-work3.jpg");
+	margin-top: 70px;
+	margin-bottom: 30px;
+    }
+    
+.banner3 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/achievement-agreement-arms.jpg");
+	margin-top: 70px;
+	margin-bottom: 30px;
+    }
+  
+.banner4 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/office1.jpg");
+	margin-top: 10px;
+	margin-bottom: 50px;
+    }  
+	
+.banner5 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/geometric.jpg");
+    } 
+
+.banner6 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/notebook.jpg");
+    }  	
+	
+.banner7 
+    {
+	height: 700px;
+	width: 100%;
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagini/laptop.jpg");
+    }  
+	
+.banner-text   
+    {
+	text-align: left;
+	padding-left: 50px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	color: #262626;
+    }
+	
+.banner-text h3
+	{
+	padding-left:80px;
+	}
+	
+.banner-text2 
+    {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 36px;
+    }
+	
+.parteneri ul 
+    {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+    }
+    
+.parteneri li 
+    {
+	list-style: none;
+	float: left;
+    position: relative;
+    top: 70%;
+    left: 25%;
+    transform: translate(-60%, -20%);
+    }
+    
+.parteneri li a 
+    {
+	font-size: 48px;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	color: white;
+    padding: 100px 150px 50px 150px;
+    color: darkgray;
+    }
+    
+.parteneri li a:hover 
+    {
+	color: #5955D9;
+    }
+    
+.col-container 
+    {
+	display: table;
+	width: 100%;
+    }
+    
+.col-container p 
+    {
+    text-align:center;
+    padding:25px 50px;
+    }
+    
+.col-container h3
+    {
+    text-align:center;
+    }
+	
+.col-container img
+	{
+	width:80px;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+	
+.btn
+	{
+	background-color: #333;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 210px;
+	cursor: pointer;	
+	}
+
+.btn1
+	{
+	background-color: #5955D9;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 210px;
+	cursor: pointer;	
+	}
+	
+.btn:hover
+	{
+	background-color: #D7D7D9;
+	color: black;
+	font-weight: bold;
+	}
+
+.col1 
+    {
+	display: table-cell;
+	padding: 16px;
+	width: 33.33%;
+    background-color:#4E54BF;
+    }
+
+.col2 
+    {
+	display: table-cell;
+	padding: 16px;
+	width: 33.33%;
+    background-color:#5955D9;
+    }
+    
+.col3 
+    {
+	display: table-cell;
+	padding: 16px;
+	width: 33.33%;
+    background-color:#8350F2;
+    }
+	
+.echipa a
+	{
+	background-color: #5955D9;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 830px;
+	cursor: pointer;	
+	}
+	
+.echipa a:hover
+	{
+	background-color: #D7D7D9;
+	color: black;
+	font-weight: bold;
+	}
+
+.review img 
+	{
+	height: auto;
+	width: 150px;
+	float: left;
+	padding-left: 10px;
+    position: absolute;
+	}
+
+.review p 
+	{
+	float: right;
+	width: 85%;
+	text-align: left;
+    margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px 50px 0px 50px;
+    position: static;
+	}
+
+.review div 
+	{
+	border-style: solid;
+	border-radius: 80px;
+	background: rgba(169,169,169,0.3);
+	padding: 50px;
+	width: 60%;
+	height: 280px;
+	margin:auto;
+	margin-bottom: 30px;
+	}
+
+
+h4
+	{
+	text-align: center;
+	font-weight:700;
+	font-size: 36px;
+	padding-top: 50px;
+	}
+	
+p
+	{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0px 50px 0px 50px;
+    }
+
+
+.card 
+	{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 30%;	
+	padding: 20px 50px 20px 50px;
+	display: inline-block;
+	margin: 25px;
+	background-color: #3D3D3D;
+	}
+
+.card:hover 
+	{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+
+.card img 
+	{
+	width:100%;	
+	}
+
+.container	
+	{
+  padding: 0px 5px;
+	}
+
+
+.harta
+	{
+	text-align: center;
+	}
+
+.social
+	{
+	justify-content: center;
+	display: flex;
+	}
+	
+.social img
+	{
+	width:80px;
+    height: auto;
+	}
+
+table
+{
+    display: table;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: gray;
+}
+
+table p
+{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+td 
+{
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px;
+}
+
+.trdark
+{
+    background-color: #222;
+}
+
+.trpurple
+{
+    background-color: #5955D9;
+    padding: 5px;
+}
+
+.tabelserv
+{
+padding: 50px 0px 50px 0px;
+margin: 100px;
+overflow: hidden;
+}
